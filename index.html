@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/assets/styles.css" rel="stylesheet"/>
+    <script src="/assets/script.js"></script>
+
     <title>Product One Pager</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
             <label for="cars">Select macaron:</label>
             <select name="macaron" id="macarons">
               <option value="macaron_1">1</option>
-              <option value="macaron_2">2</option>
+              <option value="macaron_2" onchange="macaron2()">2</option>
               <option value="macaron_3">3</option>
               <option value="macaron_4">4</option>
             </select>
@@ -31,9 +33,7 @@
         <button>Visit Website</button>
     </main>
     <main-image>
-        <div class="image-container">
-
-        </div>
+        <div id="image-container"></div>
     </main-image>
     <footer>
         <p>Product page/One pager project made by Floris | &copy; All rights reserve | <a href="https://github.com/Floris999" target="_blank">Github</a></p>
