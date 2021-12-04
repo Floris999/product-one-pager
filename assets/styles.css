@@ -60,6 +60,7 @@ main {
   grid-area: main-image;
 }
 
+/*product image container*/
 #image-container {
   background-image: url("/assets/images/macaron_1.jpg");
   background-size: cover;
@@ -84,15 +85,13 @@ button {
   color: white;
   padding: 15px 32px;
   margin-right: 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-weight: 300;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
 
+/*selection drop-down*/
 #macarons {
   font-weight: bold;
   padding: 5px 10px;
