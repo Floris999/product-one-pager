@@ -91,6 +91,18 @@ button {
   cursor: pointer;
 }
 
+.button-small {
+  background-color: #313131;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
 /*selection drop-down*/
 #macarons {
   font-weight: bold;
